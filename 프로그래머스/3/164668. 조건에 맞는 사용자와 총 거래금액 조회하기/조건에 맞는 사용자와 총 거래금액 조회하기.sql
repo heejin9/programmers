@@ -7,4 +7,3 @@ where b.STATUS = 'DONE'
 group by u.USER_ID
 having sum(b.price) >= 700000
 order by TOTAL_SALES;
-
